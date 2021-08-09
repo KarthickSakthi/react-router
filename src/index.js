@@ -6,11 +6,12 @@ import reportWebVitals from './reportWebVitals';
 import {BrowserRouter} from 'react-router-dom';
 import HomePage from './components/HomePage'
 import Page1 from './components/Page1';
+import Routing from './components/Routing'
 
 ReactDOM.render(
   <BrowserRouter>
   <React.StrictMode>
-    <Page1/>
+    <Routing/>
   </React.StrictMode>
   </BrowserRouter>,
   document.getElementById('root')
