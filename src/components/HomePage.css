@@ -1,0 +1,20 @@
+
+.Home{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+.content{
+    display: block;
+    
+}
+#btn{
+    font-size: 23px;
+    padding-left: 8%;
+    padding-right: 8%;
+    border-radius: 15px;
+    background-color: blue;
+    font-style:inherit;
+}
