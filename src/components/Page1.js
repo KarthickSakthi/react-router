@@ -8,7 +8,7 @@ export default function Page1(){
 return(<div>
     <h1>Youre in Page1</h1>
     
-    <Link to="/Page2"  target="_parent" >Page2</Link>
+    <Link to="/Page2"  target="_blank" >Page2</Link>
     
     </div>
 );
